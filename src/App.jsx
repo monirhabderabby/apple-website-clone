@@ -1,4 +1,5 @@
 import "./App.css";
+import Features from "./components/features";
 import Hero from "./components/hero";
 import Highlight from "./components/highlight";
 import Modal from "./components/modal";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Highlight />
       <Modal />
+      <Features />
     </main>
   );
 }
